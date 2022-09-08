@@ -10,7 +10,7 @@ pipeline {
 			stage('2-make a right'){
 				steps{
 					echo "walk..."
-					sh 'lscpu'
+					sh 'uptime'
 				}
 			}
 			stage('3-make another left'){
