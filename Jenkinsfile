@@ -28,7 +28,7 @@ pipeline {
                         stage('5-at door'){
                                 steps{
                                         echo "walk..."
-                                        sh 'uptime'
+                                        sh 'date'
                                 }
                         }
 		}
