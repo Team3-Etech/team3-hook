@@ -25,5 +25,11 @@ pipeline {
 					sh 'whoami'
 				}
 			}
+                        stage('5-at door'){
+                                steps{
+                                        echo "walk..."
+                                        sh 'uptime'
+                                }
+                        }
 		}
 }
